@@ -119,7 +119,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 19px;
   width: 19px;
   background-color: transparent;
@@ -129,7 +131,7 @@ ol {
 
 .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
+  display: block;
   height: 17px;
   width: 17px;
   background-color: #fff;
